@@ -28,7 +28,7 @@ git clone https://github.com/kdandy/qurannow
 
 ## License
 
-covid19 is under MIT License.
+QuranNow is under MIT License.
 
 ## About the Author
 
