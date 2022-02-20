@@ -18,8 +18,8 @@ git clone https://github.com/kdandy/qurannow
 
 ## Demo and Documentation
 
-- Open the [demo page](http://quran.kdandy.com)
-- Open the [source code](http://github.com/kdandy/qurannow)
+- Open the [demo page](https://qurannow.netlify.app/)
+- Open the [source code](https://github.com/kdandy/qurannow)
 
 ### Note
 
