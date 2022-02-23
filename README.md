@@ -26,13 +26,17 @@ git clone https://github.com/kdandy/qurannow
 - If you want to make some changes in the CSS style. Don't edit the `.css` file, use the SCSS file instead.
 - Since we use Nunjucks, if you want to make changes to the HTML structure, make sure you change the source file (Nunjucks) located in `src`.
 
-## License
+## Copyright and License
 
-QuranNow is under MIT License.
+Code released under the MIT license.
 
 ## About the Author
 
 QuranNow is created by <a href="https://kdandy.com">jaden</a>.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/kdandy/qurannow/issues/new) here on GitHub.
 
 ## Donate
 
