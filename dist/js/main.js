@@ -41,7 +41,7 @@ if (params.get("surat") == null) {
 
     const surat = params.get("surat");
 
-    fetch("https://api.quran.gading.dev/surah" + surat)
+    fetch("https://api.quran.gading.dev/surah/{surah}" + surat)
         .then((response) => response.json())
         .then((response) => {
             let ayahList = document.querySelector("#ayah-list");
