@@ -19,7 +19,7 @@ if (params.get("surat") == null) {
             const inputValue = e.target.querySelector("input").value;
             let keyword;
 
-            fetch("https://api.quran.gading.dev/")
+            fetch("https://api.quran.gading.dev/surah")
                 .then((response) => response.json())
                 .then((response) => {
                     for (let i = 0; i < response.data.length; i++) {
@@ -41,7 +41,7 @@ if (params.get("surat") == null) {
 
     const surat = params.get("surat");
 
-    fetch("https://api.quran.gading.dev/" + surat)
+    fetch("https://api.quran.gading.dev/surah" + surat)
         .then((response) => response.json())
         .then((response) => {
             let ayahList = document.querySelector("#ayah-list");
@@ -73,7 +73,7 @@ if (params.get("surat") == null) {
             ayahList.innerHTML = ayah;
         });
 
-        fetch("https://api.quran.gading.dev/")
+        fetch("https://api.quran.gading.dev/surah")
             .then((response) => response.json())
             .then((response) => {
                 let surahList = document.querySelector("#surah-list");
